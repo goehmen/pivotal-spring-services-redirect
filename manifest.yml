@@ -1,11 +1,11 @@
 ---
 applications:
-- name: pcf-roadmap-redirect
+- name: pivotal-spring-services-redirect
   memory: 64M
   instances: 1
   buildpack: staticfile_buildpack
   env:
  #   REDIRECT_URL: https://docs.google.com/presentation/d/1I-xqaHBMO0GAvBJX9DKnsWu35ARZtOTCum9mpLXOdhM/view?
-    REDIRECT_URL: https://drive.google.com/open?id=1tSvgP5nksMY95ZStAl17xLfAXZ_zFE_FPlNNB0A1jM0?
+    REDIRECT_URL: https://docs.google.com/presentation/d/1tSvgP5nksMY95ZStAl17xLfAXZ_zFE_FPlNNB0A1jM0?
   routes:
-  - route: pcfroadmap.cfapps.io
+  - route: pivotal-spring-services.cfapps.io
